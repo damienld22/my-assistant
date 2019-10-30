@@ -1,0 +1,19 @@
+{
+  "name": "my-assistant",
+  "version": "1.0.0",
+  "description": "Basic assistant for my daily tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damien Le Dantec <damien-le-dantec@hotmail.fr>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "inquirer": "^7.0.0"
+  },
+  "devDependencies": {
+    "semistandard": "^14.2.0"
+  }
+}
