@@ -11,4 +11,3 @@ program.parse(process.argv);
 if (program.procedure) {
   handleProcedureCommand(program.procedure);
 }
-
