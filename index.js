@@ -1,4 +1,6 @@
 const program = require('commander');
+const inquirer = require('inquirer');
+inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
 const { handleProcedureCommand } = require('./lib/procedure');
 
 program.version(require('./package.json').version);
