@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Basic assistant for my daily tasks",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "start": "node index.js",
     "check": "semistandard",
